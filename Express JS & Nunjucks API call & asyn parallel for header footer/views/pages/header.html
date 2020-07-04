@@ -1,0 +1,25 @@
+<!-- Header html-->
+
+<nav class="navbar navbar-default" style="position: sticky; top:0; overflow: auto;">
+    <div class="container-fluid">
+      <div class="navbar-header" style="
+          margin-top: 6px;
+          margin-bottom: 6px;
+          margin-left: 19px;
+          margin-right: 20px; 
+      ">
+        <a class="logo" href="/">
+          <img class="img-responsive logo" src="{{header.logo.color_image.url}}" alt="" data-logo-alt="{{header.logo}}"
+            data-logo-default="{{header.logo}}" />
+        </a>
+      </div>
+      <ul class="nav navbar-nav" style="
+        margin-top: 8px;
+        margin-left: 0px;
+        margin-bottom: 6px;
+        ">
+        <li><a href="/">{{header.navigation_section.navigation_bar[0].title}}</a></li>
+        <li><a href="/about">{{header.navigation_section.navigation_bar[1].title}}</a></li>
+      </ul>
+    </div>
+  </nav>

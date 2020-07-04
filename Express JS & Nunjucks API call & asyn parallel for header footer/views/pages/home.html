@@ -1,0 +1,12 @@
+<!-- About html -->
+
+{% extends "pages/index.html" %} 
+{% block content %}
+<div class="container pt-3">
+    <h1>{{home.heading}}</h1>
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif">{{home.description}}</p>
+    <br>
+    <img src="{{home.image.url}}" style="width: 800px;" height="400px;" />
+</div>
+<br>
+{% endblock %}
